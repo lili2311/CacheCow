@@ -7,9 +7,9 @@
 		<PackageId>CacheCow.Client.RedisCacheStore</PackageId>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.5" />
-		<PackageReference Include="StackExchange.Redis" Version="1.2.6" />		
+		<PackageReference Include="StackExchange.Redis" Version="2.0.495" />		
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\CacheCow.Client\CacheCow.Client.csproj" />
